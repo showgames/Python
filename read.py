@@ -1,5 +1,6 @@
-fin = open('relativity', 'rt')
+fin = open('./relativity', 'rt')
 poem = fin.read()
 fin.close()
-len(poem)
+print(poem)
+
 
